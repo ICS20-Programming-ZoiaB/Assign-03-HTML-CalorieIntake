@@ -27,6 +27,14 @@
     <!-- Link to JS file -->
     <script src="./js/script.js"></script>
 
+    <!-- Simple MDL Progress Bar -->
+    <div id="p1" class="mdl-progress mdl-js-progress"></div>
+    <script>
+      document.querySelector('#p1').addEventListener('mdl-componentupgraded', function() {
+        this.MaterialProgress.setProgress(44);
+      });
+    </script>
+    
     <!-- Header -->
     <h1>Caloric Intake Calculations</h1>
     
