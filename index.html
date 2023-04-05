@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+  <head>
+    
+    <!-- Metadata -->
+    <meta charset="utf-8">
+    <meta name="description" content="Caloric Intake Calculations">
+    <meta name="keywords" content="immaculata, ics2o">
+    <meta name="author" content="ZoiaB">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./fav_index1/android-chrome-512x512.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./fav_index1/android-chrome-512x512.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./fav_index1/android-chrome-512x512.png">
+    <link rel="manifest" href="./fav_index1/android-chrome-512x512.png">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.teal-pink.min.css" />
+    
+    <!-- Title -->
+    <title>Caloric Intake Calculations</title>
+  </head>
+  <body>
+    
+    <!-- Link to JS file -->
+    <script src="./js/script.js"></script>
+
+    <!-- Header -->
+    <h1>Caloric Intake Calculations</h1>
+    
+    <!-- Text -->
+    <p>This web page calculates how many calories of protein and carbohydrate you should eat each day based on your total daily caloric intake.</p>
+
+    <!-- Image -->
+    <center>
+    <img src="./images/conversions.webp" alt="formula" width="400" length="400">
+    </center>
+
+    <!-- Form for user input -->
+    <h3>Your Input:</h3>
+      <form action="javascript:caloriesCalculate()">
+        <label for="totalCalories">Total Calories (per day)</label>
+        <input type="number" step="0.01" id="totalCalories" min="0" placeholder="Total calories..."><br><br>
+        <input type="submit" value="Calculate" button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+      </form>
+    
+    <!-- Display results -->
+    <br><br>
+    <div id="results">
+    </div>
+  </body>
+</html>
