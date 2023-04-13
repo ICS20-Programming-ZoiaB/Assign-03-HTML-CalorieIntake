@@ -14,12 +14,12 @@ h1 {
   padding: 20px;
   background-color: #bc8f8f;
   text-align: center;
-  color: hsl(56deg 44% 23%)
+  color: hsl(56deg 44% 23%);
 }
 
 p {
   background-color: #bc8f8f;
-  color: rgb(255 239 213)
+  color: rgb(255 239 213);
 }
 
 form {
@@ -28,7 +28,7 @@ form {
 
 h3 {
   text-align: center;
-  color: rgb(255 239 213)
+  color: rgb(255 239 213);
 }
 
 div {
