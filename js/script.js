@@ -12,12 +12,12 @@ function caloriesCalculate() {
 // Get user input of total calories
   let totalCalories = parseFloat(document.getElementById("totalCalories").value);
 
-// Calculation of percentage for protein and carbohydrates
+// Calculation of amount of calories for protein and carbohydrates
   let protein = 0.2 * totalCalories;
   let carbohydrates = 0.55 * totalCalories;
   let proteinRounded = protein.toFixed(2);
   let carbohydratesRounded = carbohydrates.toFixed(2);
 
-// Display results of percentages for protein and carbohydrates
+// Display results of amount of calories for protein and carbohydrates
   document.getElementById("results").innerHTML = "You should eat " + proteinRounded + " calories of protein and you should eat " + carbohydratesRounded + " calories of carbohydrates."
 }
